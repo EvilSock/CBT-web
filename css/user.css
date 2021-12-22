@@ -1,0 +1,8 @@
+/* user defined less tings */
+.container-fluid-bg {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  background-image: image("/assets/images/green logo-07.png");
+}
