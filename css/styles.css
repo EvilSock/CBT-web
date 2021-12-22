@@ -12,3 +12,11 @@
 .white-text { 
     color: white !important;
 }
+.bg {
+    background-image: url("../assets/images/green logo-07.png");
+    background-repeat: no-repeat;
+    background-origin: padding-box;
+    background-position-x: -15vw;
+    background-position-y: -10vw;
+    background-size: 70%;    
+}
