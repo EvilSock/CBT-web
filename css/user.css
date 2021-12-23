@@ -280,3 +280,25 @@ hr {
 [role="button"] {
   cursor: pointer;
 }
+.p-m {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+/*==========  Mobile First Method  ==========*/
+/* Custom, iPhone Retina */
+/* Extra Small Devices, Phones */
+/* Small Devices, Tablets */
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  .p-m {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+/* Large Devices, Wide Screens */
+/*==========  Non-Mobile First Method  ==========*/
+/* Large Devices, Wide Screens */
+/* Medium Devices, Desktops */
+/* Small Devices, Tablets */
+/* Extra Small Devices, Phones */
+/* Custom, iPhone Retina */

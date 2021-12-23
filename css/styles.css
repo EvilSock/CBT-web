@@ -20,3 +20,40 @@
     background-position-y: -10vw;
     background-size: 70%;    
 }
+.img1 { 
+    background-image: url("../assets/images/home\ page\ 1.jpg"); 
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.content-box{ 
+    clip-path: polygon(20vw 0, 100% 0, 100% 100%, 0% 100%);
+}
+.content-box-2{ 
+    clip-path: polygon(0 0, 45vw 0, 100% 100%, 0 100%);
+    margin-left: -2vw;
+}
+.img2 { 
+    background-image: url("../assets/images/home\ page\ 2.jpg"); 
+    background-size: 65%;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.img3 { 
+    background-image: url("../assets/images/home\ page\ 3.jpg"); 
+    background-size: 65%;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.img4 { 
+    background-image: url("../assets/images/home\ page\ 4.jpg"); 
+    background-size: 65%;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.img5 { 
+    background-image: url("../assets/images/home\ page\ 5.jpg"); 
+    background-size: 65%;
+    background-repeat: no-repeat;
+    background-position: left;
+}
