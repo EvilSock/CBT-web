@@ -288,11 +288,19 @@ hr {
 /* Custom, iPhone Retina */
 /* Extra Small Devices, Phones */
 /* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  .footer-nav {
+    justify-content: center;
+  }
+}
 /* Medium Devices, Desktops */
 @media only screen and (min-width: 992px) {
   .p-m {
     padding-left: 10px;
     padding-right: 10px;
+  }
+  .footer-nav {
+    justify-content: left;
   }
 }
 /* Large Devices, Wide Screens */
