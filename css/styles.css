@@ -81,4 +81,14 @@
     color:white;
 }
 
+.float-in-l{
+    margin-left: 5%;
+    opacity: 0%;
+    transition: 1s;
+}
 
+.float-in-r{
+    margin-left: -5%;
+    opacity: 0%;
+    transition: 1s;
+}
