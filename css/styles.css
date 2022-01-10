@@ -41,7 +41,7 @@
 }
 .img3 { 
     background-image: url("../assets/images/home\ page\ 3.jpg"); 
-    background-size: 65%;
+    background-size: 100%;
     background-repeat: no-repeat;
     background-position: left;
 }
@@ -58,6 +58,12 @@
     background-position: left;
 }
 
+.content-main {
+     padding-top: 15%;
+     padding-bottom: 30%;
+     /* max-height: 38vw; */
+     min-height: 36vw;
+}
 .footer-img {
     background-image: url("https://via.placeholder.com/150");
 
@@ -137,3 +143,29 @@
 }
 
 /* end */
+
+.img1-header { 
+    background-image: url("../assets/images/home page 1.jpg");
+    height: 30vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.responsive-text-parent {
+    display: flex;
+    justify-content: center;
+}
+.responsive-text { 
+    width: 94%;
+    /* background-color: chartreuse; */
+}
+/* .responsive-text > h1 {
+    font-size: medium;
+}
+.responsive-text > h2 {
+    font-size: 2.9vw;
+}
+.responsive-text > p {
+    font-size: 2vw;
+} */
