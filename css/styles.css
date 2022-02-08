@@ -152,6 +152,16 @@
     background-attachment: fixed;
     background-position: center;
 }
+
+.img2-header { 
+    background-image: url("../assets/images/key\ considerations.jpg");
+    height: 30vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
 .responsive-text-parent {
     display: flex;
     justify-content: center;
