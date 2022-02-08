@@ -197,3 +197,16 @@
     font-weight: 545;
 
 }
+.text-white{
+    color: white;
+}
+.btn-custom { 
+    border-radius: 20px;
+    border-color: white;
+    padding:10px 30px 10px 30px;
+    margin-left: 3%;
+}
+.btn-custom:hover{
+    color: white !important;
+}
+   
