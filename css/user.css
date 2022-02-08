@@ -284,6 +284,11 @@ hr {
   padding-right: 0px;
   padding-left: 0px;
 }
+.btn-grp {
+  width: 100%;
+  display: flex;
+  justify-content: left;
+}
 /*==========  Mobile First Method  ==========*/
 /* Custom, iPhone Retina */
 /* Extra Small Devices, Phones */
@@ -314,9 +319,9 @@ hr {
   .responsive-h2 > h3 {
     font-size: large ;
   }
-}
-.p {
-  font-size: 18px !important;
+  .p {
+    font-size: 18px !important;
+  }
 }
 /*==========  Non-Mobile First Method  ==========*/
 /* Large Devices, Wide Screens */
@@ -330,6 +335,9 @@ hr {
   .responsive-h2 > h3 {
     font-size: large ;
   }
+  .p {
+    font-size: 18px !important;
+  }
 }
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
@@ -342,6 +350,9 @@ hr {
   .responsive-h2 > h3 {
     font-size: small ;
   }
+  .p {
+    font-size: 16px !important;
+  }
 }
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
@@ -351,11 +362,25 @@ hr {
   .responsive-h2 > h2 {
     font-size: medium ;
   }
+  .p {
+    font-size: 14px !important;
+  }
 }
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
   .responsive-h2 > h2 {
     font-size: small ;
+  }
+  .p {
+    font-size: 12px !important;
+  }
+  .btn-grp {
+    flex-direction: column;
+    width: 100%;
+  }
+  .btn-grp > button {
+    width: 100%;
+    margin-left: 0%;
   }
 }
 /* Custom, iPhone Retina */

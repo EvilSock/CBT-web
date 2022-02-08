@@ -51,6 +51,11 @@
     padding-right: 0px;
     padding-left: 0px;
 }
+.btn-grp { 
+    width: 100%;
+    display:flex; 
+    justify-content: left;
+}
 
 /*==========  Mobile First Method  ==========*/
 
@@ -95,12 +100,13 @@
     .responsive-h2 > h3 {
         font-size: large ;
     }
+    .p {
+        font-size: 18px !important;
+    }
 }
 
 
-.p {
-    font-size: 18px !important;
-}
+
 /*==========  Non-Mobile First Method  ==========*/
 
 /* Large Devices, Wide Screens */
@@ -116,6 +122,9 @@
     .responsive-h2 > h3 {
         font-size: large ;
     }
+    .p {
+        font-size: 18px !important;
+    }
 }
 
 /* Medium Devices, Desktops */
@@ -130,7 +139,10 @@
     .responsive-h2 > h3 {
         font-size: small ;
     }
-
+    .p {
+        font-size: 16px !important;
+    }
+    
 }
 
 /* Small Devices, Tablets */
@@ -142,6 +154,9 @@
     .responsive-h2 > h2 {
         font-size: medium ;
     }
+    .p {
+        font-size: 14px !important;
+    }
 }
 
 /* Extra Small Devices, Phones */ 
@@ -151,6 +166,17 @@
     // }
     .responsive-h2 > h2 {
         font-size: small ;
+    }
+    .p {
+        font-size: 12px !important;
+    }
+    .btn-grp { 
+        flex-direction: column;
+        width: 100%;
+    }
+    .btn-grp > button {
+        width: 100%;
+        margin-left: 0%;
     }
 }
 

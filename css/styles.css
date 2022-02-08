@@ -170,6 +170,14 @@
     background-attachment: fixed;
     background-position: center;
 }
+.img4-header { 
+    background-image: url("../assets/images/training\ opportunities.jpg");
+    height: 30vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
 
 
 .responsive-text-parent {
@@ -205,6 +213,7 @@
     border-color: white;
     padding:10px 30px 10px 30px;
     margin-left: 3%;
+    width: 130px;
 }
 .btn-custom:hover{
     color: white !important;
