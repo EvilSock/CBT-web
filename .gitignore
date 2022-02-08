@@ -1,3 +1,4 @@
 node_modules
 bootstrap-3.4.1/
 !*/bootstrap-3.4.1/dist/
+workspace.code-workspace
